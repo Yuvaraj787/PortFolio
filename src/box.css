@@ -1,0 +1,13 @@
+.c-text {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+}
+a {
+    margin-left: 8px;
+}
+button {
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 9px;
+    font-size: 20px;
+    text-decoration: underline;
+}

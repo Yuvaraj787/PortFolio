@@ -1,0 +1,32 @@
+.App {
+  background-color: rgb(114, 114, 114);
+  text-align: center;
+}
+.head-container {
+  text-align: center;
+}
+
+.text-head {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 70px;
+}
+.animate-text {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 30px;
+}
+.parent-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1%;
+}
+.c-box {
+  width: 70%;
+  height: 600px;
+  border: 2px solid wheat;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 0;
+}
+.t-panel {
+  padding-left: 1%;
+}
