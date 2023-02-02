@@ -5,7 +5,9 @@
 .head-container {
   text-align: center;
 }
-
+.navbar {
+  font-family: 'Ubuntu Mono', monospace;
+}
 .text-head {
   font-family: 'Ubuntu Mono', monospace;
   font-size: 70px;
@@ -27,6 +29,19 @@
   border-radius: 10px 10px 10px 10px;
   padding-top: 0;
 }
+
 .t-panel {
   padding-left: 1%;
+}
+@media only screen and (max-width: 600px)  {
+  .text-head {
+    font-size: 30px;
+  }
+  .c-box {
+    width: 100%;
+    height: fit-content;
+  }
+  .animate-text {
+    font-size: 20px;
+  }
 }
