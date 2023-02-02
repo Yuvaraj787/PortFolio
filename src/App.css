@@ -2,6 +2,10 @@
   background-color: rgb(114, 114, 114);
   text-align: center;
 }
+.top-head {
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight:900
+}
 .head-container {
   text-align: center;
 }

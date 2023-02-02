@@ -18,8 +18,8 @@ function App() {
        <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" className='navbar' style={{backgroundColor:"rgb(77,77,77)",fontFamily:"'Ubuntu Mono', monospace"}}>
         <Toolbar variant="dense">
-          <Typography variant="h6"  component="div">
-            PortFolio
+          <Typography  variant="h6"  component="div">
+           <span className='top-head'> PortFolio</span>
           </Typography>
         </Toolbar>
       </AppBar>
