@@ -10,7 +10,9 @@ a {
 button {
     font-family: 'Ubuntu Mono', monospace;
     padding: 9px;
+    background-color: rgb(76, 76, 76);
     font-size: 20px;
+    border-radius: 10px 10px;
     text-decoration: underline;
 }
 
@@ -74,6 +76,10 @@ button {
 .extra-text2 {
     margin-left: 1%;
 }
+.e1:hover {
+    background-color: red;
+    color:white
+}
 @media only screen and (max-width: 600px)  {
     .c-text {
         font-size: 12px;
@@ -82,10 +88,10 @@ button {
         font-size: 12px;
     }
     .tab-p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .react-tabs_tab {
-       font-size: 13px;
+       font-size: 12px;
     }
     .line-text {
         width: 100%;

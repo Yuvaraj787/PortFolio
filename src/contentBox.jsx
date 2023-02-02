@@ -29,8 +29,8 @@ export default function App(props) {
   const createElement = (sideText,lineText) => {   
   return (
   <Stack className='line-text' direction="row" spacing={1}>
-   <span className="c-text text1" >{sideText}</span>
-   <span className="c-text text2" >{lineText}</span>
+   <p style={{margin:0}}><span className="c-text text1" >{sideText}</span>
+   <span className="c-text text2" >{lineText}</span></p>
   </Stack>
   )
   };
@@ -39,12 +39,12 @@ export default function App(props) {
       <Tabs selectedIndex={value}>
       <div className='extra1'>
         <span className='extra-text2'>Terminal</span>
-      <Button className="extra" style={{color:"red"}} onClick={()=>{props.toggleButton("none");props.minimize(true)}}><CloseIcon /></Button>
-      <Button className="extra" onClick={()=>{props.minimize(!props.fvalue)}} >
+      <Button className="extra   e1" style={{color:"red",paddingLeft:0}} onClick={()=>{props.toggleButton("none");props.minimize(true)}}><CloseIcon /></Button>
+      <Button className="extra" style={{paddingLeft:0,paddingRight:0}} onClick={()=>{props.minimize(!props.fvalue)}} >
         {props.fvalue ? <OpenInFullIcon /> : <CloseFullscreenIcon />}
         </Button>
       <span className='extra-text'>
-         Yuvaraj V(Administrator)
+         Yuvaraj V(Admin)
       </span>
       </div>
       <TabList id='tab-p' style={{backgroundColor:"rgb(77,77,77)",borderRadius:"10px 10px 0 0"}}>
